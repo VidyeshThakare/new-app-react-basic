@@ -1,0 +1,33 @@
+.navbar{
+    position: relative;
+    display: flex !important; 
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    z-index: 2;
+    margin: 0 2%;
+    background-color:  #04152d;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    display: flex;
+}
+
+.menuItems{
+    display: flex;
+    gap: 47px;
+    list-style: none;
+}
+
+.menuItems a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
