@@ -1,6 +1,7 @@
 import React from 'react'
 import "./App.css"
-import BookList from './component/BookList/BookList'
+import Setup from './advanceReactComponent/tutorial/1-useState/setup/5-useState-counter'
+// import BookList from './component/BookList/BookList'
 // import Card from './component/card/Card';
 // import List from './component/List/List';
 // import Game from './component/Tictactoe/Tictactoe';
@@ -17,8 +18,9 @@ const App = () => {
     <div>
       <Game></Game>
     </div> */}
-    <BookList></BookList>
-    
+    {/* <BookList></BookList> */}
+    <Setup></Setup>
+
     </>
   )
 }
